@@ -2,6 +2,8 @@
 # It can be edited online at https://dandiarchive.org/dandiset/001195
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.8/context.json
+about:
+- {}
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -9,16 +11,126 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Keyes, Laurel (2024) Separable Dorsal Raphe Dopamine Projections Mediate
-  Sociability and Valence (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001195/draft
+citation: Keyes, Laurel; Christopher R. Lee; Kay M. Tye; Gillian A. Matthews (2024)
+  Separable Dorsal Raphe Dopamine Projections Mediate Sociability and Valence (Version
+  draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001195/draft
 contributor:
 - affiliation: []
-  email: laurelrr@gmail.com
+  email: lkeyes@salk.edu
+  identifier: 0000-0001-5433-9948
   includeInCitation: true
   name: Keyes, Laurel
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
+- email: chrlee@salk.edu
+  includeInCitation: true
+  name: Christopher R. Lee
+  roleName:
+  - dcite:Author
+  - dcite:Conceptualization
+  - dcite:DataCollector
+  - dcite:FormalAnalysis
+  - dcite:Researcher
+  - dcite:DataCurator
+  schemaKey: Person
+- identifier: 0000-0002-2435-0182
+  includeInCitation: true
+  name: Kay M. Tye
+  roleName:
+  - dcite:Conceptualization
+  - dcite:Supervision
+  - dcite:Author
+  schemaKey: Person
+- includeInCitation: true
+  name: Gillian A. Matthews
+  roleName:
+  - dcite:Author
+  - dcite:Conceptualization
+  - dcite:DataCollector
+  - dcite:DataCurator
+  schemaKey: Person
+- identifier: https://ror.org/05nzwyq50
+  includeInCitation: false
+  name: The JPB Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- identifier: https://ror.org/052csg198
+  includeInCitation: false
+  name: Alfred P Sloan Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- identifier: https://ror.org/03n2a3p06
+  includeInCitation: false
+  name: New York Stem Cell Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- identifier: https://ror.org/00cxc2y95
+  includeInCitation: false
+  name: Klingenstein Third Generation Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- identifier: https://ror.org/003ghvj67
+  includeInCitation: false
+  name: McKnight Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- identifier: https://ror.org/00qw4ms08
+  includeInCitation: false
+  name: Clayton Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- includeInCitation: false
+  name: Dolby Family Fund
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: R01-MH115920
+  identifier: https://ror.org/05xj56w78
+  includeInCitation: false
+  name: National Institute of Mental Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: DP2-DK102256
+  identifier: https://ror.org/00adh9b73
+  includeInCitation: false
+  name: 'National Institute of Diabetes and Digestive and Kidney Diseases: NIH Director''s
+    New Innovator Award'
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: DP1-AT009925
+  identifier: https://ror.org/00190t495
+  includeInCitation: false
+  name: National Center for Complementary and Integrative Health Pioneer Award (NCCIH)
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- includeInCitation: false
+  name: Charles A. King Trust Postdoctoral Research Fellowship Program
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- includeInCitation: false
+  name: MIT Summer Research Program, supported by the Center for Brains, Minds and
+    Machines (CBMM)
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: CCF-1231216
+  identifier: https://ror.org/021nxhr62
+  includeInCitation: false
+  name: National Science Foundation Science and Technology Centers Award
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2024-09-18T17:50:14.994221+00:00'
 description: Supporting data for the publication "Separable Dorsal Raphe Dopamine
   Projections Mediate Sociability and Valence" by 1,2,6Christopher R. Lee, 1,3,6Gillian
@@ -27,15 +139,28 @@ description: Supporting data for the publication "Separable Dorsal Raphe Dopamin
   1Andrea Tran, 1Faith Aloboudi, 1,4May G. Chan  3Enzo Peroni, 3Grace S. Pereira,
   3Alba Lopez-Moraga, 3Anna Pallé, 3Eyal Y. Kimchi, 1,3Nancy Padilla-Coreano, 1,3Romy
   Wichmann, 1,2,3,4,5,*Kay M. Tye
+ethicsApproval:
+- contactPoint:
+    email: rwichmann@salk.edu
+    schemaKey: ContactPoint
+  identifier: All procedures involving animals were conducted in accordance with NIH
+    guidelines and approved by the MIT Committee on Animal Care or the Salk Institute
+    Institutional Animal Care and Use Committee
+  schemaKey: EthicsApproval
 id: DANDI:001195/draft
 identifier: DANDI:001195
+keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001195/versions/draft/assets/
 name: Separable Dorsal Raphe Dopamine Projections Mediate Sociability and Valence
+protocol: []
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
+studyTarget: []
 url: https://dandiarchive.org/dandiset/001195/draft
 version: draft
+wasGeneratedBy: []
