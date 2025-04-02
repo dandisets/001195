@@ -4,10 +4,27 @@
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.8/context.json
 about:
-- {}
+- identifier: UBERON:0001950
+  name: dorsal raphe nucleus
+  schemaKey: Anatomy
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
+acknowledgement: "K.M.T. is the Wylie Vale Chair at the Salk Institute for Biological
+  Studies, a New York Stem Cell Foundation - Robertson Investigator, and a McKnight
+  Scholar. This work was supported by funding from the JPB Foundation, Alfred P Sloan
+  Foundation, New York Stem Cell Foundation, Klingenstein Foundation, McKnight Foundation,
+  Clayton Foundation, Dolby Family Fund, R01-MH115920 (NIMH), the NIH Director’s New
+  Innovator Award DP2-DK102256 (NIDDK), and Pioneer Award DP1-AT009925 (NCCIH). G.A.M
+  was supported by a Postdoctoral Research Fellowship from the Charles A. King Trust.\
+  \  R.L.M. was funded through the MSRP program in the Brains & Cognitive Sciences
+  Department at MIT, supported by the Center for Brains, Minds and Machines (CBMM),
+  and funded by NSF STC award CCF\x02 1231216. E.M.W was supported by a summer scholarship
+  from Johnson & Johnson. We thank C. Leppla, J. Olsen, P. Namburi, V. Barth, J. Wang,
+  K. Batra, A. Brown, and A. Libster for technical advice, all members of the Tye
+  Lab for helpful discussion, and advice from the CellProfiler team at the Broad Institute.
+  We also thank Rachel Neve for the HSV construct, and Charu Ramakrishnan & Karl Deisseroth
+  for AAV5-fDIO-eYFP. "
 assetsSummary:
   approach:
   - name: microscopy approach; cell population imaging
@@ -34,9 +51,9 @@ assetsSummary:
   - ProcessingModule
   - ImagingPlane
   - OpticalChannel
-citation: Keyes, Laurel; Christopher R. Lee; Kay M. Tye; Gillian A. Matthews (2024)
+citation: Keyes, Laurel; Christopher R. Lee; Kay M. Tye; Gillian A. Matthews (2025)
   Separable Dorsal Raphe Dopamine Projections Mediate Sociability and Valence (Version
-  draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001195/draft
+  draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001195/draft
 contributor:
 - affiliation: []
   email: lkeyes@salk.edu
@@ -155,13 +172,19 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2024-09-18T17:50:14.994221+00:00'
-description: Supporting data for the publication "Separable Dorsal Raphe Dopamine
-  Projections Mediate Sociability and Valence" by 1,2,6Christopher R. Lee, 1,3,6Gillian
-  A. Matthews, 1,3,6Mackenzie E. Lemieux, 3Elizabeth M. Brewer, 1,3Matilde Borio,
-  1,2,3Raymundo Miranda, 1,4Laurel R. Keyes, 1,4Gates P. Schneider, 1,2Caroline Jia,
-  1Andrea Tran, 1Faith Aloboudi, 1,4May G. Chan  3Enzo Peroni, 3Grace S. Pereira,
-  3Alba Lopez-Moraga, 3Anna Pallé, 3Eyal Y. Kimchi, 1,3Nancy Padilla-Coreano, 1,3Romy
-  Wichmann, 1,2,3,4,5,*Kay M. Tye
+description: "Supporting data for the publication \"Separable Dorsal Raphe Dopamine
+  Projections mediate the Facets of Loneliness-like state\" by Christopher R. Lee,
+  Gillian A. Matthews, Mackenzie E. Lemieux, Elizabeth M. Wasserlein, Matilde Borio,
+  Raymundo L. Miranda, Laurel R. Keyes, Gates P. Schneider, Caroline Jia, Andrea Tran,
+  Faith Aloboudi, May G. Chan, Enzo Peroni, Grace S. Pereira, Alba López-Moraga, Anna
+  Pallé, Eyal Y. Kimchi, Nancy Padilla-Coreano, Romy Wichmann, Kay M. Tye.  This dataset
+  includes both in vivo calcium imaging data and ex vivo patch-clamp electrophysiology
+  recordings.\n\nEphys Patching data also used in earlier pre-print under the title:
+  \"Separable Dorsal Raphe Dopamine Projections Mediate Sociability and Valence\"
+  by Christopher R. Lee, Gillian A. Matthews, Mackenzie E. Lemieux, Elizabeth M. Brewer,
+  Matilde Borio, Raymundo Miranda, Laurel R. Keyes, Gates P. Schneider, Caroline Jia,
+  Andrea Tran, Faith Aloboudi, May G. Chan  Enzo Peroni, Grace S. Pereira, Alba Lopez-Moraga,
+  Anna Pallé, Eyal Y. Kimchi, Nancy Padilla-Coreano, Romy Wichmann, Kay M. Tye"
 ethicsApproval:
 - contactPoint:
     email: rwichmann@salk.edu
@@ -172,18 +195,75 @@ ethicsApproval:
   schemaKey: EthicsApproval
 id: DANDI:001195/draft
 identifier: DANDI:001195
-keywords: []
+keywords:
+- mouse model, Dorsal Raphe Nucleus (DRN), Dopamine Neurons, Social motivation, mouse
+  behavior, behavioral neuroscience, optogenetics, behavior videos, calcium imaging,
+  electrophysiology
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001195/versions/draft/assets/
 name: Separable Dorsal Raphe Dopamine Projections Mediate Sociability and Valence
 protocol: []
-relatedResource: []
+relatedResource:
+- identifier: 'doi: https://doi.org/10.1101/2025.02.03.636224'
+  name: Separable Dorsal Raphe Dopamine Projections mediate the Facets of Loneliness-like
+    state
+  relation: dcite:Describes
+  repository: bioRxiv
+  resourceType: dcite:Preprint
+  schemaKey: Resource
+  url: https://www.biorxiv.org/content/10.1101/2025.02.03.636224v1
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
-studyTarget: []
+studyTarget:
+- Affiliative social connections facilitate well-being and survival in numerous species.
+  Engaging in social interactions requires positive or negative motivational drive,
+  elicited through coordinated activity across neural circuits. However, the identity,
+  interconnectivity, and functional encoding of social information within these circuits
+  remains poorly understood. Here, we focus on downstream projections of dorsal raphe
+  nucleus (DRN) dopamine neurons (DRNDAT), which we previously implicated in social
+  motivation alongside an aversive affective state. We show that three prominent DRNDAT
+  projections – to the bed nucleus of the stria terminalis (BNST), central amygdala
+  (CeA), and posterior basolateral amygdala (BLP) – play separable roles in behavior,
+  despite substantial collateralization. Photoactivation of the DRNDAT-CeA projection
+  promoted social behavior and photostimulation of the DRNDAT-BNST projection promoted
+  exploratory behavior, while the DRNDAT-BLP projection supported place avoidance,
+  suggesting a negative affective state. Downstream regions showed diverse receptor
+  expression, poising DRNDAT neurons to act through dopamine, neuropeptide, and glutamate
+  transmission. Furthermore, we show ex vivo that the effect of DRNDAT photostimulation
+  on downstream neuron excitability depended on region and baseline cell properties,
+  resulting in excitatory responses in BNST cells and diverse responses in CeA and
+  BLP. Finally, in vivo microendoscopic cellular-resolution recordings in the CeA
+  with DRNDAT photostimulation revealed a correlation between social behavior and
+  neurons excited by social stimuli– suggesting that increased dopamine tone may recruit
+  different CeA neurons to social ensembles. Collectively, these circuit features
+  may facilitate a coordinated, but flexible, response in the presence of social stimuli
+  that can be flexibly guided based on the internal social homeostatic need state
+  of the individual.
 url: https://dandiarchive.org/dandiset/001195/draft
 version: draft
-wasGeneratedBy: []
+wasGeneratedBy:
+- description: Affiliative social connections facilitate well-being and survival in
+    numerous species. Engaging in social interactions requires positive and negative
+    motivational drive, elicited through coordinated activity across neural circuits.
+    However, the identity, interconnectivity, and functional encoding of social information
+    within these circuits remains poorly understood. Here, we focused on downstream
+    projections of dorsal raphe nucleus (DRN) dopamine neurons (DRNDAT), which we
+    previously implicated in ‘negative drive’-induced social motivation. We show that
+    three prominent DRNDAT projections – to the bed nucleus of the stria terminalis
+    (BNST), central amygdala (CeA), and posterior basolateral amygdala (BLP) – play
+    separable roles in behavior, despite substantial collateralization. Photoactivation
+    of the DRNDAT-CeA projection promoted social behavior and photoactivation of the
+    DRNDAT-BNST projection promoted exploratory behavior, while the DRNDAT-BLP projection
+    supported place avoidance, suggesting a negative affective state. Downstream regions
+    showed diverse, region-specific, receptor expression, poising DRNDAT neurons to
+    act through dopamine, neuropeptide, and glutamate transmission. Furthermore, we
+    show ex vivo that the effect of DRNDAT photostimulation on downstream neuron excitability
+    was predicted by baseline cell properties, suggesting cell-type-specific modulation.
+    Collectively, these data indicate that DRNDAT neurons may bias behavior via precise
+    modulation of cellular activity in broadly-distributed target structures.
+  identifier: https://www.researchsquare.com/article/rs-1025403/v1
+  name: Separable Dorsal Raphe Dopamine Projections Mediate Sociability and Valence
+  schemaKey: Project
