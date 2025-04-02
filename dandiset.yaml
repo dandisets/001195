@@ -16,6 +16,9 @@ about:
 - identifier: UBERON:0006107
   name: Posterior Basolateral Amygdala (BLP)
   schemaKey: Anatomy
+- identifier: http://purl.obolibrary.org/obo/GSSO_003702
+  name: social isolation
+  schemaKey: GenericType
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
