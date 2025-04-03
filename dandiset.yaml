@@ -42,8 +42,8 @@ assetsSummary:
   numberOfFiles: 0
   schemaKey: AssetsSummary
 citation: Keyes, Laurel; Christopher R. Lee; Kay M. Tye; Gillian A. Matthews (2025)
-  Separable Dorsal Raphe Dopamine Projections Mediate Sociability and Valence (Version
-  draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001195/draft
+  Separable Dorsal Raphe Dopamine Projections Mediate the Facets of Loneliness-like
+  State (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001195/draft
 contributor:
 - affiliation: []
   email: lkeyes@salk.edu
@@ -163,7 +163,7 @@ contributor:
   schemaKey: Organization
 dateCreated: '2024-09-18T17:50:14.994221+00:00'
 description: "Supporting data for the publication \"Separable Dorsal Raphe Dopamine
-  Projections mediate the Facets of Loneliness-like state\" by Christopher R. Lee,
+  Projections Mediate the Facets of Loneliness-like State\" by Christopher R. Lee,
   Gillian A. Matthews, Mackenzie E. Lemieux, Elizabeth M. Wasserlein, Matilde Borio,
   Raymundo L. Miranda, Laurel R. Keyes, Gates P. Schneider, Caroline Jia, Andrea Tran,
   Faith Aloboudi, May G. Chan, Enzo Peroni, Grace S. Pereira, Alba López-Moraga, Anna
@@ -193,7 +193,8 @@ license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001195/versions/draft/assets/
-name: Separable Dorsal Raphe Dopamine Projections Mediate Sociability and Valence
+name: Separable Dorsal Raphe Dopamine Projections Mediate the Facets of Loneliness-like
+  State
 protocol: []
 relatedResource:
 - identifier: 'doi: https://doi.org/10.1101/2025.02.03.636224'
