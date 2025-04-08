@@ -58,9 +58,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 69360416611
-  numberOfCells: 130
-  numberOfFiles: 229
+  numberOfBytes: 69986574127
+  numberOfCells: 131
+  numberOfFiles: 230
   numberOfSamples: 8
   numberOfSubjects: 34
   schemaKey: AssetsSummary
@@ -78,9 +78,9 @@ assetsSummary:
   - PlaneSegmentation
   - ProcessingModule
   - OnePhotonSeries
-citation: Keyes, Laurel; Christopher R. Lee; Kay M. Tye; Gillian A. Matthews (2025)
-  Separable Dorsal Raphe Dopamine Projections Mediate the Facets of Loneliness-like
-  State (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001195/draft
+citation: Keyes, Laurel; Lee, Christopher R.; Wichmann, Romy; Matthews, Gillian A.
+  ; Tye, Kay M.  (2025) Separable Dorsal Raphe Dopamine Projections Mediate the Facets
+  of Loneliness-like State (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001195/draft
 contributor:
 - affiliation: []
   email: lkeyes@salk.edu
@@ -92,7 +92,7 @@ contributor:
   schemaKey: Person
 - email: chrlee@salk.edu
   includeInCitation: true
-  name: Christopher R. Lee
+  name: Lee, Christopher R.
   roleName:
   - dcite:Author
   - dcite:Conceptualization
@@ -101,31 +101,32 @@ contributor:
   - dcite:Researcher
   - dcite:DataCurator
   schemaKey: Person
-- identifier: 0000-0002-2435-0182
+- identifier: 0000-0002-4506-8813
   includeInCitation: true
-  name: Kay M. Tye
+  name: Wichmann, Romy
   roleName:
-  - dcite:Conceptualization
-  - dcite:Supervision
-  - dcite:Author
+  - dcite:Researcher
+  - dcite:DataCurator
   schemaKey: Person
 - includeInCitation: true
-  name: Gillian A. Matthews
+  name: 'Matthews, Gillian A. '
   roleName:
   - dcite:Author
   - dcite:Conceptualization
   - dcite:DataCollector
   - dcite:DataCurator
   schemaKey: Person
+- identifier: 0000-0002-2435-0182
+  includeInCitation: true
+  name: 'Tye, Kay M. '
+  roleName:
+  - dcite:Conceptualization
+  - dcite:Supervision
+  - dcite:Author
+  schemaKey: Person
 - identifier: https://ror.org/05nzwyq50
   includeInCitation: false
   name: The JPB Foundation
-  roleName:
-  - dcite:Funder
-  schemaKey: Organization
-- identifier: https://ror.org/052csg198
-  includeInCitation: false
-  name: Alfred P Sloan Foundation
   roleName:
   - dcite:Funder
   schemaKey: Organization
@@ -153,8 +154,9 @@ contributor:
   roleName:
   - dcite:Funder
   schemaKey: Organization
-- includeInCitation: false
-  name: Dolby Family Fund
+- identifier: https://ror.org/052csg198
+  includeInCitation: false
+  name: Alfred P Sloan Foundation
   roleName:
   - dcite:Funder
   schemaKey: Organization
@@ -198,20 +200,28 @@ contributor:
   roleName:
   - dcite:Funder
   schemaKey: Organization
+- includeInCitation: false
+  name: Dolby Family Fund
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2024-09-18T17:50:14.994221+00:00'
+datePublished: '2025-04-08T17:33:12.753743+00:00'
 description: "Supporting data for the publication \"Separable Dorsal Raphe Dopamine
   Projections Mediate the Facets of Loneliness-like State\" by Christopher R. Lee,
   Gillian A. Matthews, Mackenzie E. Lemieux, Elizabeth M. Wasserlein, Matilde Borio,
   Raymundo L. Miranda, Laurel R. Keyes, Gates P. Schneider, Caroline Jia, Andrea Tran,
   Faith Aloboudi, May G. Chan, Enzo Peroni, Grace S. Pereira, Alba López-Moraga, Anna
-  Pallé, Eyal Y. Kimchi, Nancy Padilla-Coreano, Romy Wichmann, Kay M. Tye.  This dataset
-  includes both in vivo calcium imaging data and ex vivo patch-clamp electrophysiology
-  recordings.\n\nEphys Patching data also used in earlier pre-print under the title:
-  \"Separable Dorsal Raphe Dopamine Projections Mediate Sociability and Valence\"
-  by Christopher R. Lee, Gillian A. Matthews, Mackenzie E. Lemieux, Elizabeth M. Brewer,
-  Matilde Borio, Raymundo Miranda, Laurel R. Keyes, Gates P. Schneider, Caroline Jia,
-  Andrea Tran, Faith Aloboudi, May G. Chan  Enzo Peroni, Grace S. Pereira, Alba Lopez-Moraga,
-  Anna Pallé, Eyal Y. Kimchi, Nancy Padilla-Coreano, Romy Wichmann, Kay M. Tye"
+  Pallé, Eyal Y. Kimchi, Nancy Padilla-Coreano, Romy Wichmann, Kay M. Tye.  bioRxiv
+  2025.02.03.636224; doi: https://doi.org/10.1101/2025.02.03.636224.  \nThis dataset
+  includes both in vivo calcium imaging data with supporting behavioral videos and
+  ex vivo patch-clamp electrophysiology recordings.\n\nEphys Patching data also used
+  in earlier pre-print under the title: \"Separable Dorsal Raphe Dopamine Projections
+  Mediate Sociability and Valence\" by Gillian A. Matthews, Mackenzie E. Lemieux,
+  Elizabeth M. Brewer, Matilde Borio, Raymundo Miranda, Laurel R. Keyes, Enzo Peroni,
+  Grace S. Pereira, Alba Lopez-Moraga, Anna Pallé, Christopher R. Lee, Eyal Y. Kimchi,
+  Nancy Padilla-Coreano, Romy Wichmann, Kay M. Tye.  Research Square. 2021 Dec 3.
+  doi: 10.21203/rs.3.rs-1025403/v1."
 ethicsApproval:
 - contactPoint:
     email: rwichmann@salk.edu
@@ -223,9 +233,17 @@ ethicsApproval:
 id: DANDI:001195/draft
 identifier: DANDI:001195
 keywords:
-- mouse model, Dorsal Raphe Nucleus (DRN), Dopamine Neurons, Social motivation, mouse
-  behavior, behavioral neuroscience, optogenetics, behavior videos, calcium imaging,
-  electrophysiology
+- optogenetics
+- behavior videos
+- calcium imaging
+- electrophysiology
+- Social Isolation
+- Social Motivation
+- mouse behavior
+- behavioral neuroscience
+- mouse model
+- Dorsal Raphe Nucleus (DRN)
+- Dopamine neurons
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
@@ -233,15 +251,34 @@ manifestLocation:
 name: Separable Dorsal Raphe Dopamine Projections Mediate the Facets of Loneliness-like
   State
 protocol: []
+publishedBy:
+  endDate: '2025-04-08T17:33:12.753743+00:00'
+  id: urn:uuid:e7b589a6-9018-44fd-8e71-5cba081330b2
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2025-04-08T17:33:12.753743+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:b6817d41-1f9c-4e4a-8e13-227e799e96c4
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
-- identifier: 'doi: https://doi.org/10.1101/2025.02.03.636224'
+- identifier: https://doi.org/10.7554/eLife.105955.1
   name: Separable Dorsal Raphe Dopamine Projections mediate the Facets of Loneliness-like
     state
   relation: dcite:Describes
-  repository: bioRxiv
+  repository: eLife
+  resourceType: dcite:JournalArticle
+  schemaKey: Resource
+  url: https://doi.org/10.7554/eLife.105955.1
+- identifier: https://doi.org/10.21203/rs.3.rs-1025403/v1
+  name: Separable Dorsal Raphe Dopamine Projections Mediate Sociability and Valence
+  relation: dcite:Describes
+  repository: Research Square
   resourceType: dcite:Preprint
   schemaKey: Resource
-  url: https://www.biorxiv.org/content/10.1101/2025.02.03.636224v1
+  url: https://doi.org/10.21203/rs.3.rs-1025403/v1
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
