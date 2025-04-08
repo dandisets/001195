@@ -80,7 +80,7 @@ assetsSummary:
   - OnePhotonSeries
 citation: Keyes, Laurel; Lee, Christopher R.; Wichmann, Romy; Matthews, Gillian A.
   ; Tye, Kay M.  (2025) Separable Dorsal Raphe Dopamine Projections Mediate the Facets
-  of Loneliness-like State (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001195/draft
+  of Loneliness-like State (Version 0.250408.1733) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.001195/0.250408.1733
 contributor:
 - affiliation: []
   email: lkeyes@salk.edu
@@ -222,6 +222,7 @@ description: "Supporting data for the publication \"Separable Dorsal Raphe Dopam
   Grace S. Pereira, Alba Lopez-Moraga, Anna Pallé, Christopher R. Lee, Eyal Y. Kimchi,
   Nancy Padilla-Coreano, Romy Wichmann, Kay M. Tye.  Research Square. 2021 Dec 3.
   doi: 10.21203/rs.3.rs-1025403/v1."
+doi: 10.48324/dandi.001195/0.250408.1733
 ethicsApproval:
 - contactPoint:
     email: rwichmann@salk.edu
@@ -230,7 +231,7 @@ ethicsApproval:
     guidelines and approved by the MIT Committee on Animal Care or the Salk Institute
     Institutional Animal Care and Use Committee
   schemaKey: EthicsApproval
-id: DANDI:001195/draft
+id: DANDI:001195/0.250408.1733
 identifier: DANDI:001195
 keywords:
 - optogenetics
@@ -247,7 +248,7 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001195/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001195/0.250408.1733/assets.yaml
 name: Separable Dorsal Raphe Dopamine Projections Mediate the Facets of Loneliness-like
   State
 protocol: []
@@ -307,8 +308,8 @@ studyTarget:
   may facilitate a coordinated, but flexible, response in the presence of social stimuli
   that can be flexibly guided based on the internal social homeostatic need state
   of the individual.
-url: https://dandiarchive.org/dandiset/001195/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001195/0.250408.1733
+version: 0.250408.1733
 wasGeneratedBy:
 - description: Affiliative social connections facilitate well-being and survival in
     numerous species. Engaging in social interactions requires positive and negative
